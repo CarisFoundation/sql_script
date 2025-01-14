@@ -19,7 +19,7 @@ SELECT
 FROM
     session s
         INNER JOIN
-    tracking_motherbasicinfo tmi ON tmi.id_patient = s.id_patient
+    tracking_infant tmi ON tmi.id_patient = s.id_patient
         INNER JOIN
     patient p ON p.id = s.id_patient
         INNER JOIN
